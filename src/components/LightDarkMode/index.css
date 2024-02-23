@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.light {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+.dark {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.container {
+  height: 300px;
+  width: 600px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+button {
+  font-size: 20px;
+}
